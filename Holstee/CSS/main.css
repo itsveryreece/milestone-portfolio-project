@@ -1,0 +1,49 @@
+main {background: lightgrey;
+  width: 400px;
+  padding: 10px;
+  margin: auto;
+  overflow: auto;
+	}
+
+p {text-align: center;
+	font-family: 'Quattrocento', serif;
+	font-size: 16px
+	}
+
+span {font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	}
+
+.long-container {background: Tomato;
+			width: 160px;
+			height: 280px;
+			padding: 15px 20px 15px 20px;
+			margin: 0px;
+			vertical-align: middle;
+	}
+
+.col-left {float: left;
+	}
+
+.col-right {float: left;
+		}
+
+.small-container {padding: 15px 20px 15px 20px;
+				width: 160px;
+				height: 125px;
+				margin: 0px;
+}
+
+.emphasis {font-family: 'Oswald', sans-serif;
+		font-size: 18px;
+	}
+
+.quiet {font-family: 'Quattrocento', serif;
+	font-size: 16px;
+	}
+
+.box-one {background: Orchid;}
+
+.box-two {background: Azure;}
+
+.box-three {background: Teal;}

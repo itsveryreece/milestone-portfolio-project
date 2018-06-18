@@ -1,0 +1,205 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #8eaebd;
+  margin: 0;
+  padding: 0;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #cf6766;
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  opacity: 1;
+  z-index: 1;
+}
+
+#navbar h3{
+  font-size: 14pt;
+  color: #ffffff;
+  float: left;
+  padding-left: 20px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    float: right;
+}
+
+#navbar ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 16pt;
+    color: #031424;
+    padding: 0px 25px 0px 20px;
+}
+
+#navbar a:hover{
+  background-color: #8eaebd;
+  font-weight: bolder;
+}
+
+header h1 {
+    font-family: 'Cousine', monospace;
+    font-size: 48pt;
+    color: #ffffff;
+    padding-top: 150px;
+    padding-left: 45px;
+}
+
+header h1 span {
+    color: #30415d;
+    font-weight: bolder;
+    background-color: #8eaebd;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  height: 1550px;
+}
+
+.project {
+  height: 400px;
+  padding-top: 50px;
+  overflow: auto;
+}
+
+.thumbnails {
+  border-style: solid;
+  border-color: #cf6766;
+  border-width: thin;
+  height: 350px;
+}
+
+.container {
+  position: relative;
+  width: 552px;
+  height: 352px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cf6766;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #30415d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Cousine', monospace;
+  font-size: 28pt;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 75px;
+}
+
+h2 span{
+  background-color: #cf6766;
+  padding: 10px;
+}
+
+
+h4 {
+  font-weight: bold;
+  font-size: 16pt;
+  color: #30415d;
+}
+
+p {
+  font-size: 14pt;
+  color: #ffffff;
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: 500px;
+  background: url('../img/about-me.png');
+  background-size: cover;
+}
+
+#about .half-width{
+  padding-left: 35px;
+}
+
+
+/***** FOOTER *****/
+
+#contact {
+  height: 400px;
+}
+
+#contact a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #30415d;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+  height: 50px;
+  padding-top: 50px;
+  text-align: right;
+}
+footer p{
+  font-size: 9pt;
+  color: #30415d;
+  padding-right: 20px;
+}
